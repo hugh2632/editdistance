@@ -2,10 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="a7cf31ca-750b-4a13-a59f-96a5e194a1d6" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/editdistance.go" beforeDir="false" afterPath="$PROJECT_DIR$/editdistance.go" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/editdistance_test.go" beforeDir="false" afterPath="$PROJECT_DIR$/editdistance_test.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/go.mod" beforeDir="false" afterPath="$PROJECT_DIR$/go.mod" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -18,20 +16,29 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/editdistance.go">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1178">
+            <state relative-caret-position="1691">
               <caret line="89" selection-start-line="89" selection-end-line="89" />
             </state>
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/editdistance_test.go">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="290">
-              <caret line="18" selection-start-line="18" selection-end-line="18" />
+            <state relative-caret-position="128">
+              <caret line="8" column="36" selection-start-line="8" selection-start-column="13" selection-end-line="8" selection-end-column="36" />
               <folding>
                 <element signature="e#22#50#0" expanded="true" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/go.mod">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="57">
+              <caret line="3" lean-forward="true" selection-start-line="3" selection-end-line="3" />
             </state>
           </provider>
         </entry>
@@ -57,6 +64,7 @@
       <list>
         <option value="$PROJECT_DIR$/editdistance.go" />
         <option value="$PROJECT_DIR$/editdistance_test.go" />
+        <option value="$PROJECT_DIR$/go.mod" />
       </list>
     </option>
   </component>
@@ -136,9 +144,6 @@
     </recent_temporary>
   </component>
   <component name="TestHistory">
-    <history-entry file="TestGetDistance_in_editdistance - 2020.05.07 at 16h 20m 08s.xml">
-      <configuration name="TestGetDistance in editdistance" configurationId="GoTestRunConfiguration" />
-    </history-entry>
     <history-entry file="TestGetDistance_in_editdistance - 2020.05.07 at 16h 20m 50s.xml">
       <configuration name="TestGetDistance in editdistance" configurationId="GoTestRunConfiguration" />
     </history-entry>
@@ -166,16 +171,20 @@
     <history-entry file="TestGetDistance_in_editdistance - 2020.05.07 at 16h 30m 47s.xml">
       <configuration name="TestGetDistance in editdistance" configurationId="GoTestRunConfiguration" />
     </history-entry>
+    <history-entry file="TestGetDistance_in_editdistance - 2020.05.07 at 17h 22m 41s.xml">
+      <configuration name="TestGetDistance in editdistance" configurationId="GoTestRunConfiguration" />
+    </history-entry>
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
+    <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.2553305" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.25799572" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.5444685" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.5444685" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.5075922" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -231,18 +240,25 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/editdistance.go">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1178">
+        <state relative-caret-position="1691">
           <caret line="89" selection-start-line="89" selection-end-line="89" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/editdistance_test.go">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="290">
-          <caret line="18" selection-start-line="18" selection-end-line="18" />
+        <state relative-caret-position="128">
+          <caret line="8" column="36" selection-start-line="8" selection-start-column="13" selection-end-line="8" selection-end-column="36" />
           <folding>
             <element signature="e#22#50#0" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/go.mod">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="57">
+          <caret line="3" lean-forward="true" selection-start-line="3" selection-end-line="3" />
         </state>
       </provider>
     </entry>
