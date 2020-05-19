@@ -15,8 +15,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/editdistance.go">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="128">
-              <caret line="45" selection-start-line="45" selection-end-line="45" />
+            <state relative-caret-position="456">
+              <caret line="88" column="50" selection-start-line="88" selection-start-column="50" selection-end-line="88" selection-end-column="50" />
               <folding>
                 <element signature="n#!!block;n#Compare#0" />
               </folding>
@@ -27,8 +27,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/editdistance_test.go">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="171">
-              <caret line="9" column="18" selection-start-line="9" selection-start-column="18" selection-end-line="9" selection-end-column="18" />
+            <state relative-caret-position="152">
+              <caret line="8" column="15" selection-start-line="8" selection-start-column="15" selection-end-line="8" selection-end-column="15" />
               <folding>
                 <element signature="e#22#50#0" expanded="true" />
               </folding>
@@ -72,6 +72,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -83,7 +84,6 @@
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -108,7 +108,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Go Test.BenchmarkEditDistanceDp_GetOutPut in github.com/hugh2632/editdistance">
+  <component name="RunManager" selected="Go Test.TestGetDistance in github.com/hugh2632/editdistance">
     <configuration name="BenchmarkEditDistanceDp_GetOutPut in editdistance" type="GoTestRunConfiguration" factoryName="Go Test" temporary="true" nameIsGenerated="true">
       <module name="editdistance" />
       <working_directory value="$PROJECT_DIR$" />
@@ -153,54 +153,54 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Go Test.BenchmarkEditDistanceDp_GetOutPut in github.com/hugh2632/editdistance" />
         <item itemvalue="Go Test.TestGetDistance in github.com/hugh2632/editdistance" />
+        <item itemvalue="Go Test.BenchmarkEditDistanceDp_GetOutPut in github.com/hugh2632/editdistance" />
         <item itemvalue="Go Test.TestGetDistance in editdistance" />
         <item itemvalue="Go Test.BenchmarkEditDistanceDp_GetOutPut in editdistance" />
       </list>
     </recent_temporary>
   </component>
   <component name="TestHistory">
-    <history-entry file="TestGetDistance_in_github_com_hugh2632_editdistance - 2020.05.19 at 13h 39m 19s.xml">
+    <history-entry file="TestGetDistance_in_github_com_hugh2632_editdistance - 2020.05.19 at 17h 39m 51s.xml">
       <configuration name="TestGetDistance in github.com/hugh2632/editdistance" configurationId="GoTestRunConfiguration" />
     </history-entry>
-    <history-entry file="TestGetDistance_in_github_com_hugh2632_editdistance - 2020.05.19 at 13h 40m 41s.xml">
+    <history-entry file="TestGetDistance_in_github_com_hugh2632_editdistance - 2020.05.19 at 17h 40m 17s.xml">
       <configuration name="TestGetDistance in github.com/hugh2632/editdistance" configurationId="GoTestRunConfiguration" />
     </history-entry>
-    <history-entry file="TestGetDistance_in_github_com_hugh2632_editdistance - 2020.05.19 at 17h 25m 52s.xml">
+    <history-entry file="TestGetDistance_in_github_com_hugh2632_editdistance - 2020.05.19 at 17h 41m 13s.xml">
       <configuration name="TestGetDistance in github.com/hugh2632/editdistance" configurationId="GoTestRunConfiguration" />
     </history-entry>
-    <history-entry file="TestGetDistance_in_github_com_hugh2632_editdistance - 2020.05.19 at 17h 26m 19s.xml">
+    <history-entry file="TestGetDistance_in_github_com_hugh2632_editdistance - 2020.05.19 at 17h 42m 01s.xml">
       <configuration name="TestGetDistance in github.com/hugh2632/editdistance" configurationId="GoTestRunConfiguration" />
     </history-entry>
-    <history-entry file="TestGetDistance_in_github_com_hugh2632_editdistance - 2020.05.19 at 17h 27m 27s.xml">
+    <history-entry file="TestGetDistance_in_github_com_hugh2632_editdistance - 2020.05.19 at 17h 43m 19s.xml">
       <configuration name="TestGetDistance in github.com/hugh2632/editdistance" configurationId="GoTestRunConfiguration" />
     </history-entry>
-    <history-entry file="TestGetDistance_in_github_com_hugh2632_editdistance - 2020.05.19 at 17h 28m 43s.xml">
+    <history-entry file="TestGetDistance_in_github_com_hugh2632_editdistance - 2020.05.19 at 17h 44m 40s.xml">
       <configuration name="TestGetDistance in github.com/hugh2632/editdistance" configurationId="GoTestRunConfiguration" />
     </history-entry>
-    <history-entry file="TestGetDistance_in_github_com_hugh2632_editdistance - 2020.05.19 at 17h 29m 06s.xml">
+    <history-entry file="TestGetDistance_in_github_com_hugh2632_editdistance - 2020.05.19 at 17h 45m 54s.xml">
       <configuration name="TestGetDistance in github.com/hugh2632/editdistance" configurationId="GoTestRunConfiguration" />
     </history-entry>
-    <history-entry file="TestGetDistance_in_github_com_hugh2632_editdistance - 2020.05.19 at 17h 30m 43s.xml">
+    <history-entry file="TestGetDistance_in_github_com_hugh2632_editdistance - 2020.05.19 at 17h 46m 03s.xml">
       <configuration name="TestGetDistance in github.com/hugh2632/editdistance" configurationId="GoTestRunConfiguration" />
     </history-entry>
-    <history-entry file="TestGetDistance_in_github_com_hugh2632_editdistance - 2020.05.19 at 17h 31m 08s.xml">
+    <history-entry file="TestGetDistance_in_github_com_hugh2632_editdistance - 2020.05.19 at 17h 46m 08s.xml">
       <configuration name="TestGetDistance in github.com/hugh2632/editdistance" configurationId="GoTestRunConfiguration" />
     </history-entry>
-    <history-entry file="BenchmarkEditDistanceDp_GetOutPut_in_github_com_hugh2632_editdistance - 2020.05.19 at 17h 31m 20s.xml">
-      <configuration name="BenchmarkEditDistanceDp_GetOutPut in github.com/hugh2632/editdistance" configurationId="GoTestRunConfiguration" />
+    <history-entry file="TestGetDistance_in_github_com_hugh2632_editdistance - 2020.05.19 at 17h 46m 17s.xml">
+      <configuration name="TestGetDistance in github.com/hugh2632/editdistance" configurationId="GoTestRunConfiguration" />
     </history-entry>
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.26865673" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.27132195" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.2646421" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.23535791" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.5075922" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -208,7 +208,7 @@
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
       <window_info anchor="bottom" id="Database Changes" order="8" />
       <window_info anchor="bottom" id="Version Control" order="9" />
-      <window_info active="true" anchor="bottom" id="Terminal" order="10" visible="true" weight="0.329718" />
+      <window_info active="true" anchor="bottom" id="Terminal" order="10" visible="true" weight="0.3286334" />
       <window_info anchor="bottom" id="Event Log" order="11" side_tool="true" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
@@ -229,7 +229,6 @@
         <line-breakpoint enabled="true" type="DlvLineBreakpoint">
           <url>file://$PROJECT_DIR$/editdistance_test.go</url>
           <line>20</line>
-          <properties />
           <option name="timeStamp" value="7" />
         </line-breakpoint>
       </breakpoints>
@@ -275,8 +274,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/editdistance.go">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="128">
-          <caret line="45" selection-start-line="45" selection-end-line="45" />
+        <state relative-caret-position="456">
+          <caret line="88" column="50" selection-start-line="88" selection-start-column="50" selection-end-line="88" selection-end-column="50" />
           <folding>
             <element signature="n#!!block;n#Compare#0" />
           </folding>
@@ -285,8 +284,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/editdistance_test.go">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="171">
-          <caret line="9" column="18" selection-start-line="9" selection-start-column="18" selection-end-line="9" selection-end-column="18" />
+        <state relative-caret-position="152">
+          <caret line="8" column="15" selection-start-line="8" selection-start-column="15" selection-end-line="8" selection-end-column="15" />
           <folding>
             <element signature="e#22#50#0" expanded="true" />
           </folding>

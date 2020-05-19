@@ -78,14 +78,14 @@ func (this *editDistanceDp) GetOutPut(emptyStr []rune, SubFunc func(rune, rune) 
 	if nowx == 0 && nowy > 0{
 		var tmp = make([]rune, nowy, nowy)
 		for i:=0; i< nowy;i++ {
-			tmp = append(tmp, this.Second[i])
+			tmp = append(tmp, AddFunc(this.Second[i])...)
 			firstout = append(emptyStr, firstout...)
 		}
 		secondout = append(tmp, secondout...)
 	}else if nowy == 0 && nowx >0 {
 		var tmp = make([]rune, nowx, nowx)
 		for i:=0; i< nowx;i++ {
-			tmp = append(tmp, this.First[i])
+			tmp = append(tmp, DelFunc(this.First[i])...)
 			secondout = append(emptyStr, secondout...)
 		}
 		firstout = append(tmp, firstout...)
