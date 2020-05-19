@@ -6,10 +6,10 @@ import (
 )
 
 func TestGetDistance(t *testing.T) {
-	var a = "12345"
+	var a = "23"
 	var b = "32345"
 	var res = Compare(a, b)
-	var first, second = res.GetOutPut([]rune("___"), func(r rune, r2 rune) (runes []rune, runes2 []rune) {
+	var first, second = res.GetOutPut([]rune("_"), func(r rune, r2 rune) (runes []rune, runes2 []rune) {
 		return []rune("[" + string(r) + "]"), []rune("{" + string(r2) + "}")
 	}, func(r rune) []rune {
 		return []rune("{" + string(r) + "}")

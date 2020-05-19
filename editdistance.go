@@ -43,23 +43,8 @@ func Compare(first string, second string) *editDistanceDp {
 func (this *editDistanceDp) GetOutPut(emptyStr []rune, SubFunc func(rune, rune) ([]rune, []rune), AddFunc func(rune) []rune, DelFunc func(rune) []rune) (firstout []rune, secondout []rune) {
 	var nowx = len(this.First)
 	var nowy = len(this.Second)
-	if nowx == 0 {
-		var tmp = make([]rune, nowy, nowy)
-		for i:=0; i< nowy;i++ {
-			tmp = append(tmp, this.Second[i])
-			secondout = append(emptyStr, secondout...)
-		}
-		firstout = append(tmp, firstout...)
-	}else if nowy == 0 {
-		var tmp = make([]rune, nowx, nowx)
-		for i:=0; i< nowx;i++ {
-			tmp = append(tmp, this.First[i])
-			firstout = append(emptyStr, firstout...)
-		}
-		secondout = append(tmp, secondout...)
-	}
 
-	for nowx > 0 && nowy > 0 {
+	for nowx > 0  && nowy > 0 {
 		var sub = this.DPTable[nowx-1][nowy-1]
 		var add = this.DPTable[nowx][nowy-1]
 		var del = this.DPTable[nowx-1][nowy]
@@ -88,6 +73,22 @@ func (this *editDistanceDp) GetOutPut(emptyStr []rune, SubFunc func(rune, rune) 
 		if subSecond != nil {
 			secondout = append(subSecond, secondout...)
 		}
+	}
+
+	if nowx == 0 && nowy > 0{
+		var tmp = make([]rune, nowy, nowy)
+		for i:=0; i< nowy;i++ {
+			tmp = append(tmp, this.Second[i])
+			firstout = append(emptyStr, firstout...)
+		}
+		secondout = append(tmp, secondout...)
+	}else if nowy == 0 && nowx >0 {
+		var tmp = make([]rune, nowx, nowx)
+		for i:=0; i< nowx;i++ {
+			tmp = append(tmp, this.First[i])
+			secondout = append(emptyStr, secondout...)
+		}
+		firstout = append(tmp, firstout...)
 	}
 	return firstout, secondout
 }
